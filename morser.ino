@@ -1,10 +1,10 @@
 //MORSER.INO
-//String translation into Morse code by Anfarwol (@adrianvert)
+//ITU standard Morse code string translation for Arduino's built-in LED by Anfarwol (@adrianvert)
 
 //Supported characters:
 //English alphabet letters;
 //numbers from 0 to 9;
-//symbols ".", ",", "?", "'", "!", "/", "(", ")", ":", ";", "=", "+", "-", """, "@".
+//symbols ".", ",", "?", "'", "!", "/", "(", ")", ":", ";", "=", "+", "-", """ and "@".
 
 int dot_length = 417;
 String message = "SOS";
