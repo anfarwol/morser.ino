@@ -246,163 +246,161 @@ void error() {
 }
 
 void morse(String message) {
-  int message_length = message.length();
-  for (int it = 0; it < message_length; it++) {
-    char character = message[it];
-    if (character == 'a' || character == 'A') {
+  for (int it = 0; it < message.length(); it++) {
+    if (message[it] == 'a' || message[it] == 'A') {
       a();
     }
-    else if (character == 'b' || character == 'B') {
+    else if (message[it] == 'b' || message[it] == 'B') {
       b();
     }
-    else if (character == 'c' || character == 'C') {
+    else if (message[it] == 'c' || message[it] == 'C') {
       c();
     }
-    else if (character == 'd' || character == 'D') {
+    else if (message[it] == 'd' || message[it] == 'D') {
       d();
     }
-    else if (character == 'e' || character == 'E') {
+    else if (message[it] == 'e' || message[it] == 'E') {
       e();
     }
-    else if (character == 'f' || character == 'F') {
+    else if (message[it] == 'f' || message[it] == 'F') {
       f();
     }
-    else if (character == 'g' || character == 'G') {
+    else if (message[it] == 'g' || message[it] == 'G') {
       g();
     }
-    else if (character == 'h' || character == 'H') {
+    else if (message[it] == 'h' || message[it] == 'H') {
       h();
     }
-    else if (character == 'i' || character == 'I') {
+    else if (message[it] == 'i' || message[it] == 'I') {
       i();
     }
-    else if (character == 'j' || character == 'J') {
+    else if (message[it] == 'j' || message[it] == 'J') {
       j();
     }
-    else if (character == 'k' || character == 'K') {
+    else if (message[it] == 'k' || message[it] == 'K') {
       k();
     }
-    else if (character == 'l' || character == 'l') {
+    else if (message[it] == 'l' || message[it] == 'l') {
       l();
     }
-    else if (character == 'm' || character == 'M') {
+    else if (message[it] == 'm' || message[it] == 'M') {
       m();
     }
-    else if (character == 'n' || character == 'N') {
+    else if (message[it] == 'n' || message[it] == 'N') {
       n();
     }
-    else if (character == 'o' || character == 'O') {
+    else if (message[it] == 'o' || message[it] == 'O') {
       o();
     }
-    else if (character == 'p' || character == 'P') {
+    else if (message[it] == 'p' || message[it] == 'P') {
       p();
     }
-    else if (character == 'q' || character == 'Q') {
+    else if (message[it] == 'q' || message[it] == 'Q') {
       q();
     }
-    else if (character == 'r' || character == 'R') {
+    else if (message[it] == 'r' || message[it] == 'R') {
       r();
     }
-    else if (character == 's' || character == 'S') {
+    else if (message[it] == 's' || message[it] == 'S') {
       s();
     }
-    else if (character == 't' || character == 'T') {
+    else if (message[it] == 't' || message[it] == 'T') {
       t();
     }
-    else if (character == 'u' || character == 'U') {
+    else if (message[it] == 'u' || message[it] == 'U') {
       u();
     }
-    else if (character == 'v' || character == 'V') {
+    else if (message[it] == 'v' || message[it] == 'V') {
       v();
     }
-    else if (character == 'w' || character == 'W') {
+    else if (message[it] == 'w' || message[it] == 'W') {
       w();
     }
-    else if (character == 'x' || character == 'X') {
+    else if (message[it] == 'x' || message[it] == 'X') {
       x();
     }
-    else if (character == 'y' || character == 'Y') {
+    else if (message[it] == 'y' || message[it] == 'Y') {
       y();
     }
-    else if (character == 'z' || character == 'Z') {
+    else if (message[it] == 'z' || message[it] == 'Z') {
       z();
     }
-    else if (character == '0') {
+    else if (message[it] == '0') {
       zero();
     }
-    else if (character == '1') {
+    else if (message[it] == '1') {
       one();
     }
-    else if (character == '2') {
+    else if (message[it] == '2') {
       two();
     }
-    else if (character == '3') {
+    else if (message[it] == '3') {
       three();
     }
-    else if (character == '4') {
+    else if (message[it] == '4') {
       four();
     }
-    else if (character == '5') {
+    else if (message[it] == '5') {
       five();
     }
-    else if (character == '6') {
+    else if (message[it] == '6') {
       six();
     }
-    else if (character == '7') {
+    else if (message[it] == '7') {
       seven();
     }
-    else if (character == '8') {
+    else if (message[it] == '8') {
       eight();
     }
-    else if (character == '9') {
+    else if (message[it] == '9') {
       nine();
     }
-    else if (character == ' ') {
+    else if (message[it] == ' ') {
       wordend();
     }
-    else if (character == '.') {
+    else if (message[it] == '.') {
       period();
     }
-    else if (character == ',') {
+    else if (message[it] == ',') {
       comma();
     }
-    else if (character == '?') {
+    else if (message[it] == '?') {
       question();
     }
-    else if (character == '\'') {
+    else if (message[it] == '\'') {
       apostrophe();
     }
-    else if (character == '!') {
+    else if (message[it] == '!') {
       exclamation();
     }
-    else if (character == '/') {
+    else if (message[it] == '/') {
       slash();
     }
-    else if (character == '(') {
+    else if (message[it] == '(') {
       parenthesis_open();
     }
-    else if (character == ')') {
+    else if (message[it] == ')') {
       parenthesis_close();
     }
-    else if (character == ':') {
+    else if (message[it] == ':') {
       colon();
     }
-    else if (character == ';') {
+    else if (message[it] == ';') {
       semicolon();
     }
-    else if (character == '=') {
+    else if (message[it] == '=') {
       equal();
     }
-    else if (character == '+') {
+    else if (message[it] == '+') {
       plus();
     }
-    else if (character == '-') {
+    else if (message[it] == '-') {
       minus();
     }
-    else if (character == '"') {
+    else if (message[it] == '"') {
       quotation();
     }
-    else if (character == '@') {
+    else if (message[it] == '@') {
       at();
     }    
     else {
